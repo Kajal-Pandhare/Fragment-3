@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="18dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtYes"
+        android:text="Yes"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtNo"
+        android:text="No"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtMayBe"
+        android:text="May be"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
